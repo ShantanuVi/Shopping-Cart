@@ -5,7 +5,7 @@ export default function CartCard(props) {
   return (
     <div className="CartCard">
       <div className="cartCard-details">
-        <img src={props.CartProducts.item.image} className="cartCardImage" />
+        <img src={props.CartProducts.item.image} alt="secondary-ima" className="cartCardImage" />
         <div className="cart-product-title">
           <span>{props.CartProducts.item.title}</span>
           <br />
