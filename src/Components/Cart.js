@@ -17,8 +17,8 @@ export default function Cart() {
   return (
     <div className="cart">
       <h1>My Cart</h1>
-      <div className={Products ==""?"cartProducts-flex":"cartProducts-block"}>
-        {Products ==""?(
+      <div className={Products ===""?"cartProducts-flex":"cartProducts-block"}>
+        {Products ===""?(
           <h1> Your Cart is Empty</h1>
         ):(
           Products.map((item, i) => (
